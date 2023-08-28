@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "dev-gcc",
+      "displayName": "GCC 12.3.0 x86_64-linux-gnu",
+      "description": "Using compilers: C = gcc",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+        "CMAKE_C_COMPILER": "${env:CONDA_PREFIX}/bin/gcc",
+        "CMAKE_CXX_COMPILER": "${env:CONDA_PREFIX}/bin/g++",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ],
+  "buildPresets": []
+}

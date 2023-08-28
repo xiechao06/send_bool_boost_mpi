@@ -1,0 +1,41 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+_libgcc_mutex=0.1=conda_forge
+_openmp_mutex=4.5=2_gnu
+binutils=2.40=hdd6e379_0
+binutils_impl_linux-64=2.40=hf600244_0
+binutils_linux-64=2.40=hbdbef99_1
+boost-cpp=1.82.0=h8013b2b_2
+bzip2=1.0.8=h7f98852_4
+c-compiler=1.0.0=h14c3975_0
+ca-certificates=2023.7.22=hbcca054_0
+cxx-compiler=1.0.0=hf484d3e_0
+cxxopts=3.1.0=hf52228f_0
+fmt=9.1.0=h924138e_0
+gcc=13.1.0=h8e92de4_1
+gcc_impl_linux-64=13.1.0=hc4be1a9_0
+gcc_linux-64=13.1.0=hd2d1137_1
+gxx=13.1.0=h8e92de4_1
+gxx_impl_linux-64=13.1.0=hc4be1a9_0
+gxx_linux-64=13.1.0=h5006d2a_1
+icu=73.2=h59595ed_0
+kernel-headers_linux-64=2.6.32=he073ed8_16
+ld_impl_linux-64=2.40=h41732ed_0
+libboost-mpi=1.82.0=h40c540e_0
+libgcc-devel_linux-64=13.1.0=he3cc6c4_0
+libgcc-ng=13.1.0=he5830b7_0
+libgfortran-ng=13.1.0=h69a702a_0
+libgfortran5=13.1.0=h15d22d2_0
+libgomp=13.1.0=he5830b7_0
+libsanitizer=13.1.0=hfd8a6a1_0
+libstdcxx-devel_linux-64=13.1.0=he3cc6c4_0
+libstdcxx-ng=13.1.0=hfd8a6a1_0
+libzlib=1.2.13=hd590300_5
+mpi=1.0=mpich
+mpich=4.1.2=h846660c_100
+openssl=3.1.2=hd590300_0
+spdlog=1.11.0=hdb19cb5_0
+sysroot_linux-64=2.12=he073ed8_16
+xz=5.2.6=h166bdaf_0
+zstd=1.5.2=hfc55251_7
